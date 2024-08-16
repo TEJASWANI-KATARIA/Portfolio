@@ -30,8 +30,11 @@ body{
     margin-left: 1rem;
 }
 .logo{
-    background-image: url("l1.png");
-    background-image: url("logo.png");
+    /* background-image: url("l1.png"); */
+    background-image: url("../other_files/logo.png");
+      /* importat here i done the relative path ../ goes up one directory from the css folder to the project root.
+other_files is the folder containing your image.
+logo.png is your image file. */
     background-size: cover;
     height: 85px;
     width: 100%;
@@ -93,7 +96,7 @@ body{
     /* border-radius: 4%; */
     /* color: #144266; */
     background-image: url("m1.jpg");
-    background-image: url("Portfolio.png");
+    background-image: url("../other_files/Portfolio.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -170,7 +173,7 @@ body{
     width: 30%;
     padding: 0.2rem;
     /* border: 0.2rem solid white; */
-    background-image: url("g3.jpg");
+    background-image: url("../other_files/g3.jpg");
     background-size: cover;
     background-repeat: no-repeat ;
     background-position: center;
@@ -277,7 +280,7 @@ h2{
 #doodles{
     height: 75%;
     width: 30%;
-    background-image: url("g2.jpg");
+    background-image: url("../other_files/g2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
