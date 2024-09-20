@@ -369,7 +369,7 @@ h2{
     /* border: 0.1rem solid ; */
     
     border: 0.1rem solid #c1b5d3;
-    background-image: url("");
+    background-image: url("../other_files/mini-pro.png");
 }
 #pimg3{
     height: 50%;
@@ -386,9 +386,8 @@ h2{
     height: 50%;
     width:90%;
     /* border: 0.1rem solid ; */
-    
     border: 0.1rem solid #c1b5d3;
-    background-image: url("Tejaswani\ Kataria\ \(2\).png");
+    background-image: url("../other_files/inventory-management.png");
 }
 .pro button{
     margin-top: 1rem;
