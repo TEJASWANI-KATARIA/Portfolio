@@ -28,3 +28,39 @@ for (let i = 0; i < words.length; i++) {
     heading.appendChild(spaceSpan);
   }
 }  
+
+
+// ------ project section work ------- 
+const modal = document.getElementById("projectModal");
+const modalTitle = document.getElementById("modalTitle");
+const modalDescription = document.getElementById("modalDescription");
+const span = document.getElementsByClassName("close")[0];
+
+document.querySelectorAll(".pro button").forEach((btn, index) => {
+  btn.addEventListener("click", () => {
+    modal.style.display = "block";
+    const titles = ["Inventory Management", "JS Mini-projects", "Portfolio", "Swap Spot"];
+    const descriptions = [
+    "Developed a .NET-based application software for inventory management. Key features include item tracking, purchase/sales orders, stock alerts. Gained experience in .NET development, and user interface design.",
+    "Created interactive web apps using JavaScript, HTML, and CSS. Projects included tic-tac-toe, zero-cross, and a currency converter. Demonstrated skills in game logic, UI design, API integration, and problem-solving.",
+    "project showcasing web development skills using HTML, CSS, JavaScript.Features responsive design, customizable theme, project showcase, skills section, contact form.Demonstrates proficiency in frontend development, problem-solving, and attention to detail.",
+    "Swap Spot is a dedicated platform for Banasthali Vidyapith students and staff, designed to facilitate easy buying, selling, and exchanging of items within the campus community. Currently an ongoing project, it aims to foster a seamless and secure environment for users to list items, find deals, and connect with others. With a focus on convenience and trust, Swap Spot enables members to trade everything from textbooks and stationery to gadgets and clothing, promoting a sustainable and student-friendly marketplace."
+    ];
+
+    modalTitle.textContent = titles[index];
+    modalDescription.textContent = descriptions[index];
+  });
+});
+
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+
+// ----- end of project section work ------- 
+    
