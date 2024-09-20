@@ -350,14 +350,18 @@ h2{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    border-radius: 2.5%;
+    border-radius: 5px;
 }
 #pimg1{
     height: 50%;
     width:90%;
-    border: 0.1rem solid #c1b5d3;
-    background-image: url("Tejaswani\ Kataria\ \(2\).png");
-    
+    /* border: 0.1rem solid #c1b5d3; */
+    border-radius: 5px;
+    background-image: url("../other_files/2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+
 }
 #pimg2{
     height: 50%;
@@ -365,15 +369,18 @@ h2{
     /* border: 0.1rem solid ; */
     
     border: 0.1rem solid #c1b5d3;
-    background-image: url("Tejaswani\ Kataria\ \(2\).png");
+    background-image: url("");
 }
 #pimg3{
     height: 50%;
     width:90%;
     /* border: 0.1rem solid ; */
-    
-    border: 0.1rem solid #c1b5d3;
-    background-image: url("Tejaswani\ Kataria\ \(2\).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 5px;
+    /* border: 0.1rem solid #c1b5d3; */
+    background-image: url("../other_files/logo.png");
 }
 #pimg4{
     height: 50%;
